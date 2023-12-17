@@ -11,4 +11,12 @@ ingress:
     service: https://nginx-external-controller.networking.svc.cluster.local:443
     originRequest:
       originServerName: "external.${SECRET_DOMAIN}"
+  - hostname: "osmand-traccar.${SECRET_DOMAIN}"
+    service: tcp://traccar-devices.default.svc.cluster.local:5055
+    originRequest:
+      originServerName: "external.${SECRET_DOMAIN}"
+  - hostname: "h02-traccar.${SECRET_DOMAIN}"
+    service: tcp://traccar-devices.default.svc.cluster.local:5013
+    originRequest:
+      originServerName: "external.${SECRET_DOMAIN}"
   - service: http_status:404

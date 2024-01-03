@@ -1,4 +1,4 @@
-ansible_become_pass: ENC[AES256_GCM,data:o1PDP6v1garhihRjk/aU,iv:7FgxpbvdNZa/+S34hTlpc88aKmYG+ukGCJCbJVzWF34=,tag:Saq0kSuZmPtPB0fE9HTVUg==,type:str]
+ansible_become_pass: ENC[AES256_GCM,data:/AhWYLgoQeQrJ90pgTG+,iv:eDRE97gOifOu8wozxAo/N0vmtFoZ4TIoTEk4ov35f0M=,tag:Lkc5HgJawc/heJ2HeHhyjA==,type:str]
 sops:
     kms: []
     gcp_kms: []
@@ -8,14 +8,14 @@ sops:
         - recipient: age1zu6n8h3re0ftq59w5ajp32xjz60m98q69eygqmp6v54hmrt289dqad9txh
           enc: |
             -----BEGIN AGE ENCRYPTED FILE-----
-            YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSB0R1VuWEF4YkwwNGI2MDVl
-            SmR1Z1RQajl1c3RKdFlIbWp5djJ4TjFSbUgwClFyZHluV2t5QVB1SUQvaVhING45
-            OTBhaExSWS9BN0drWllURnVwZHAvTTAKLS0tIHpoUm8zc3pxMWNZK0ZMRzhhRWlq
-            TXV6WmdVTlBBNyt2NUVKeEJEaDhrNGsK11YQAsa8Jw3yFRNlIs+w7hyA6xmYYtqS
-            VKeVYH7njzxQ6CSQziNFGfpIcnmGtIzdtb35hUl+EFlFU7j18mDmwQ==
+            YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBlalpwaTlVemZFQmZvSWdO
+            WHpFQjBibzQwWG1nd24yS2pqV3JINitXNFZRCk1zQmQ1YzcxY0VOQTZySEdBMVM4
+            cWlMall3cDhWTTlYei9obkZweGd1M2sKLS0tIDN4QmpnbzdCaFgyRkhpUVVqRFY0
+            eFQ4cU5tRHBDNXZWZWNJVldFS1dNVHMKEFl574eEpxO/g2oczcOpyCCHgyuXa9ze
+            Rslponj9H2Pp0/ODEmXytj5Y8vM1vVFFEot1X/4ZAn9+M9rF5rdo2w==
             -----END AGE ENCRYPTED FILE-----
-    lastmodified: "2023-12-28T16:14:49Z"
-    mac: ENC[AES256_GCM,data:1bE0bhIeBAf4oNZuqhxtj2OCgGOV3V/entj7VdwzGvMzlfA8TyLaOnmLj0NBpKOQIwCR+TY1SS7b+a5zsOTdWIMd3pW24RagpaQXVDCv8ypHvgjPcL7IGbpM6G5rHEOMXltZUQCH8myAjhWpj6Ontzt+6RIVVF7M6/bz5HEZ4ks=,iv:YfboJ5mAGuMe9F3O8Wumb3e1/JZa0GK53GvXZ/QZi54=,tag:pF/3c+OombIQbdGazSpSlw==,type:str]
+    lastmodified: "2024-01-03T22:15:07Z"
+    mac: ENC[AES256_GCM,data:nTA3/vxJw8A7bnF3diNIFh1SU6450dppAJcEJlQcmwR4zrr9F8+GLlaFOFFo67rJpxYWgXSFk6i5XaYycOehJTkuCgeO1JDpHCMEnAFCyuDFC89E4VnwhU2PLqjz8tN9bl1L4rVTWuit+XLSeGUSVsCiCL7YFjtHIyj6mw+3SP0=,iv:14wMV1gHM5kEXOASOc2EqdlIY1I9UvPzU79UEnn7DeM=,tag:36pOVe/+K3lOVFmcaUINFA==,type:str]
     pgp: []
     unencrypted_suffix: _unencrypted
     version: 3.8.1
